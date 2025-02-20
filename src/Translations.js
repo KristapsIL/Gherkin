@@ -2,7 +2,7 @@ import Translation from "./Translation";
 function Translations(){
     return (
         <>
-            <table id="table">
+            <table>
                 <thead>
                     <tr>
                         <th>Angļu valodā</th>
@@ -16,4 +16,5 @@ function Translations(){
         </>
     )
 }
+
 export default Translations;
