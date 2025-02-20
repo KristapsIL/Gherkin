@@ -1,15 +1,14 @@
 
-import { useState } from "react";
 function Feature(){
-    const [isVisible, setVisible] = useState(true);
-    const onClick = () => setVisible(!isVisible);
-    const Text = () => 
-        <div></div>;
     return (
         <>
-            <p>Kas un kāpēc ir funkcionālā iezīme?</p>
-            <button onClick={onClick}>{isVisible? 'Hide' : 'Show'}</button>
-            {isVisible? <Text /> : null}
+            <div>
+                <p>Kas un kāpēc ir funkcionālā iezīme?</p>
+                <p>Funkcionālā iezīme ir ieviesta funkcionalitāte
+                mūsu sistēma,  lai atbalstītu spēju . Funkcionālā iezīme sastāv vismaz no funkcionālā iezīmes
+                Nosaukuma un scenārija.</p>
+            </div>
         </>
     )
 }
+export default Feature;

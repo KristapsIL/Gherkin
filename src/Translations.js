@@ -1,4 +1,5 @@
 import Translation from "./Translation";
+import Feature from "./Feature";
 function Translations(){
     return (
         <>
@@ -13,6 +14,7 @@ function Translations(){
                     <Translation/>
                 </tbody>
             </table>
+            <Feature/>
         </>
     )
 }
